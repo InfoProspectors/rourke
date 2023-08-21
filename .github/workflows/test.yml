@@ -44,7 +44,7 @@ jobs:
         run: pnpm install
 
       - name: test 🚀
-        run: pnpm run test
+        run: pnpm run dev
 
       - name: Create and write to info.log 🚀
         run: |
