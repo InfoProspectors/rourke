@@ -39,7 +39,7 @@
     "html-to-md": "^0.8.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config-ts": "^0.40.2",
+    "@antfu/eslint-config-ts": "^0.41.0",
     "@femm/prettier": "^1.1.0",
     "@femm/verify-commit": "^1.0.1",
     "@types/fs-extra": "^11.0.1",
