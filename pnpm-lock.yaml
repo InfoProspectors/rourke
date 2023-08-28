@@ -7,7 +7,7 @@ specifiers:
   '@types/fs-extra': ^11.0.1
   '@types/inquirer': ^9.0.3
   '@types/lodash-es': ^4.17.8
-  '@types/node': ^20.5.1
+  '@types/node': ^20.5.7
   '@types/puppeteer': ^7.0.4
   arg: ^5.0.2
   chalk: ^5.3.0
@@ -45,7 +45,7 @@ devDependencies:
   '@types/fs-extra': 11.0.1
   '@types/inquirer': 9.0.3
   '@types/lodash-es': 4.17.8
-  '@types/node': 20.5.1
+  '@types/node': 20.5.7
   '@types/puppeteer': 7.0.4
   arg: 5.0.2
   chalk: 5.3.0
@@ -1106,7 +1106,7 @@ packages:
     resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
     dev: true
 
   /@types/http-cache-semantics/4.0.1:
@@ -1127,7 +1127,7 @@ packages:
   /@types/jsonfile/6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
     dev: true
 
   /@types/lodash-es/4.17.8:
@@ -1146,8 +1146,8 @@ packages:
       '@types/unist': 2.0.7
     dev: true
 
-  /@types/node/20.5.1:
-    resolution: {integrity: sha512-4tT2UrL5LBqDwoed9wZ6N3umC4Yhz3W3FloMmiiG4JwmUJWpie0c7lcnUNd4gtMKuDEO4wRVS8B6Xa0uMRsMKg==}
+  /@types/node/20.5.7:
+    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -1172,7 +1172,7 @@ packages:
   /@types/through/0.0.30:
     resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
     dependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
     dev: true
 
   /@types/unist/2.0.7:
@@ -1183,7 +1183,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.5.1
+      '@types/node': 20.5.7
     optional: true
 
   /@typescript-eslint/eslint-plugin/6.4.0_xwqx4ed6z45mbqo5ckdhxbmb4y:
