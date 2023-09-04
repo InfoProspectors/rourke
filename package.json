@@ -44,7 +44,7 @@
     "@femm/verify-commit": "^1.0.1",
     "@types/fs-extra": "^11.0.1",
     "@types/inquirer": "^9.0.3",
-    "@types/lodash-es": "^4.17.8",
+    "@types/lodash-es": "^4.17.9",
     "@types/node": "^20.5.7",
     "@types/puppeteer": "^7.0.4",
     "arg": "^5.0.2",
