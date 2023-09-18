@@ -25,7 +25,7 @@ specifiers:
   inquirer: ^9.2.11
   lint-staged: ^14.0.1
   log4js: ^6.9.1
-  npm-check-updates: ^16.13.3
+  npm-check-updates: ^16.14.4
   prettier: ^3.0.3
   puppeteer: ^21.2.1
   rimraf: ^5.0.1
@@ -60,7 +60,7 @@ devDependencies:
   inquirer: 9.2.11
   lint-staged: 14.0.1
   log4js: 6.9.1
-  npm-check-updates: 16.13.3
+  npm-check-updates: 16.14.4
   prettier: 3.0.3
   puppeteer: 21.2.1_typescript@5.2.2
   rimraf: 5.0.1
@@ -3842,8 +3842,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: true
 
-  /npm-check-updates/16.13.3:
-    resolution: {integrity: sha512-l3FQtm+ZtDwqtK2r27vCuNdtnoDsXzk8D2WczvrAJy2bGPZJvRmuUa/Q9Gv+AbZV0IHSNJD2oHtQqUeqQRhEsw==}
+  /npm-check-updates/16.14.4:
+    resolution: {integrity: sha512-PKg1wv3vno75/9qgRLqV2huBO7eukOlW+PmIGl7LPXjElfYTUTWUtaMOdOckImaSj4Uqe46W/zMbMFZQp5dHRQ==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
@@ -3875,6 +3875,7 @@ packages:
       semver-utils: 1.1.4
       source-map-support: 0.5.21
       spawn-please: 2.0.2
+      strip-ansi: 7.1.0
       strip-json-comments: 5.0.1
       untildify: 4.0.0
       update-notifier: 6.0.2
