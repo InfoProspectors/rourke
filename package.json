@@ -60,7 +60,7 @@
     "inquirer": "^9.2.11",
     "lint-staged": "^14.0.1",
     "log4js": "^6.9.1",
-    "npm-check-updates": "^16.13.3",
+    "npm-check-updates": "^16.14.4",
     "prettier": "^3.0.3",
     "puppeteer": "^21.1.1",
     "rimraf": "^5.0.1",
