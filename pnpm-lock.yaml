@@ -4,7 +4,7 @@ specifiers:
   '@antfu/eslint-config-ts': ^0.41.0
   '@femm/prettier': ^1.1.0
   '@femm/verify-commit': ^1.0.1
-  '@types/fs-extra': ^11.0.1
+  '@types/fs-extra': ^11.0.2
   '@types/inquirer': ^9.0.3
   '@types/lodash-es': ^4.17.9
   '@types/node': ^20.6.0
@@ -42,7 +42,7 @@ devDependencies:
   '@antfu/eslint-config-ts': 0.41.0_rngtr6f3b25lvetpihwplgecf4
   '@femm/prettier': 1.1.0
   '@femm/verify-commit': 1.0.1
-  '@types/fs-extra': 11.0.1
+  '@types/fs-extra': 11.0.2
   '@types/inquirer': 9.0.3
   '@types/lodash-es': 4.17.9
   '@types/node': 20.6.0
@@ -904,8 +904,8 @@ packages:
       minimatch: 9.0.3
     dev: true
 
-  /@types/fs-extra/11.0.1:
-    resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
+  /@types/fs-extra/11.0.2:
+    resolution: {integrity: sha512-c0hrgAOVYr21EX8J0jBMXGLMgJqVf/v6yxi0dLaJboW9aQPh16Id+z6w2Tx1hm+piJOLv8xPfVKZCLfjPw/IMQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
       '@types/node': 20.6.0
