@@ -43,7 +43,7 @@
     "@femm/prettier": "^1.1.0",
     "@femm/verify-commit": "^1.0.1",
     "@types/fs-extra": "^11.0.2",
-    "@types/inquirer": "^9.0.3",
+    "@types/inquirer": "^9.0.4",
     "@types/lodash-es": "^4.17.9",
     "@types/node": "^20.8.0",
     "@types/puppeteer": "^7.0.4",
