@@ -25,7 +25,7 @@ specifiers:
   inquirer: ^9.2.11
   lint-staged: ^14.0.1
   log4js: ^6.9.1
-  npm-check-updates: ^16.14.4
+  npm-check-updates: ^16.14.5
   prettier: ^3.0.3
   puppeteer: ^21.3.8
   rimraf: ^5.0.5
@@ -60,7 +60,7 @@ devDependencies:
   inquirer: 9.2.11
   lint-staged: 14.0.1
   log4js: 6.9.1
-  npm-check-updates: 16.14.4
+  npm-check-updates: 16.14.5
   prettier: 3.0.3
   puppeteer: 21.3.8_typescript@5.2.2
   rimraf: 5.0.5
@@ -3852,8 +3852,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: true
 
-  /npm-check-updates/16.14.4:
-    resolution: {integrity: sha512-PKg1wv3vno75/9qgRLqV2huBO7eukOlW+PmIGl7LPXjElfYTUTWUtaMOdOckImaSj4Uqe46W/zMbMFZQp5dHRQ==}
+  /npm-check-updates/16.14.5:
+    resolution: {integrity: sha512-f7v3YzPUgadtkB2LAVhiWMjrSejJ0N8OM9JjjVfxBz2neHqmPSWQUAUA+U/p3xeXHl9bghRD6knRqBhm9dkRGg==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
