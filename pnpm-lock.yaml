@@ -7,7 +7,7 @@ specifiers:
   '@types/fs-extra': ^11.0.2
   '@types/inquirer': ^9.0.4
   '@types/lodash-es': ^4.17.9
-  '@types/node': ^20.8.3
+  '@types/node': ^20.8.6
   '@types/puppeteer': ^7.0.4
   arg: ^5.0.2
   chalk: ^5.3.0
@@ -45,7 +45,7 @@ devDependencies:
   '@types/fs-extra': 11.0.2
   '@types/inquirer': 9.0.4
   '@types/lodash-es': 4.17.9
-  '@types/node': 20.8.3
+  '@types/node': 20.8.6
   '@types/puppeteer': 7.0.4_typescript@5.2.2
   arg: 5.0.2
   chalk: 5.3.0
@@ -927,7 +927,7 @@ packages:
     resolution: {integrity: sha512-c0hrgAOVYr21EX8J0jBMXGLMgJqVf/v6yxi0dLaJboW9aQPh16Id+z6w2Tx1hm+piJOLv8xPfVKZCLfjPw/IMQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.8.3
+      '@types/node': 20.8.6
     dev: true
 
   /@types/http-cache-semantics/4.0.1:
@@ -948,7 +948,7 @@ packages:
   /@types/jsonfile/6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.8.3
+      '@types/node': 20.8.6
     dev: true
 
   /@types/lodash-es/4.17.9:
@@ -967,8 +967,10 @@ packages:
       '@types/unist': 2.0.7
     dev: true
 
-  /@types/node/20.8.3:
-    resolution: {integrity: sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==}
+  /@types/node/20.8.6:
+    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
+    dependencies:
+      undici-types: 5.25.3
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -994,7 +996,7 @@ packages:
   /@types/through/0.0.30:
     resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
     dependencies:
-      '@types/node': 20.8.3
+      '@types/node': 20.8.6
     dev: true
 
   /@types/unist/2.0.7:
@@ -1005,7 +1007,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.8.3
+      '@types/node': 20.8.6
     optional: true
 
   /@typescript-eslint/eslint-plugin/6.7.2_wdoogrjvbtqzaslt2g3dypyy5a:
@@ -5214,6 +5216,9 @@ packages:
     dependencies:
       buffer: 5.7.1
       through: 2.3.8
+
+  /undici-types/5.25.3:
+    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
 
   /unique-filename/3.0.0:
     resolution: {integrity: sha512-afXhuC55wkAmZ0P18QsVE6kp8JaxrEokN2HGIoIVv2ijHQd419H0+6EigAFcIzXeMIkcIkNBpB3L/DXB3cTS/g==}
