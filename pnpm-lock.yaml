@@ -5,7 +5,7 @@ specifiers:
   '@femm/prettier': ^1.1.0
   '@femm/verify-commit': ^1.0.1
   '@types/fs-extra': ^11.0.3
-  '@types/inquirer': ^9.0.4
+  '@types/inquirer': ^9.0.6
   '@types/lodash-es': ^4.17.10
   '@types/node': ^20.8.6
   '@types/puppeteer': ^7.0.4
@@ -43,7 +43,7 @@ devDependencies:
   '@femm/prettier': 1.1.0
   '@femm/verify-commit': 1.0.1
   '@types/fs-extra': 11.0.3
-  '@types/inquirer': 9.0.4
+  '@types/inquirer': 9.0.6
   '@types/lodash-es': 4.17.10
   '@types/node': 20.8.6
   '@types/puppeteer': 7.0.4_typescript@5.2.2
@@ -934,8 +934,8 @@ packages:
     resolution: {integrity: sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==}
     dev: true
 
-  /@types/inquirer/9.0.4:
-    resolution: {integrity: sha512-x8UgutCLm5tsp995aeYB8dlT+sGBCtv0zE43tHvo7OljtlA2Rn4+COyLKe9+YjB20uy0G14y0C9vCD2KtNtyGA==}
+  /@types/inquirer/9.0.6:
+    resolution: {integrity: sha512-1Go1AAP/yOy3Pth5Xf1DC3nfZ03cJLCPx6E2YnSN/5I3w1jHBVH4170DkZ+JxfmA7c9kL9+bf9z3FRGa4kNAqg==}
     dependencies:
       '@types/through': 0.0.30
       rxjs: 7.8.1
