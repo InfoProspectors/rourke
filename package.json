@@ -36,7 +36,7 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "hpdf": "^1.0.3",
-    "html-to-md": "^0.8.3"
+    "html-to-md": "^0.8.4"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.43.1",
