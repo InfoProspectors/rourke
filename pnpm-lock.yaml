@@ -6,7 +6,7 @@ specifiers:
   '@femm/verify-commit': ^1.0.1
   '@types/fs-extra': ^11.0.3
   '@types/inquirer': ^9.0.6
-  '@types/lodash-es': ^4.17.10
+  '@types/lodash-es': ^4.17.11
   '@types/node': ^20.9.0
   '@types/puppeteer': ^7.0.4
   arg: ^5.0.2
@@ -44,7 +44,7 @@ devDependencies:
   '@femm/verify-commit': 1.0.1
   '@types/fs-extra': 11.0.3
   '@types/inquirer': 9.0.6
-  '@types/lodash-es': 4.17.10
+  '@types/lodash-es': 4.17.11
   '@types/node': 20.9.0
   '@types/puppeteer': 7.0.4_typescript@5.2.2
   arg: 5.0.2
@@ -951,8 +951,8 @@ packages:
       '@types/node': 20.9.0
     dev: true
 
-  /@types/lodash-es/4.17.10:
-    resolution: {integrity: sha512-YJP+w/2khSBwbUSFdGsSqmDvmnN3cCKoPOL7Zjle6s30ZtemkkqhjVfFqGwPN7ASil5VyjE2GtyU/yqYY6mC0A==}
+  /@types/lodash-es/4.17.11:
+    resolution: {integrity: sha512-eCw8FYAWHt2DDl77s+AMLLzPn310LKohruumpucZI4oOFJkIgnlaJcy23OKMJxx4r9PeTF13Gv6w+jqjWQaYUg==}
     dependencies:
       '@types/lodash': 4.14.197
     dev: true
