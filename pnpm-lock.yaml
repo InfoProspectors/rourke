@@ -27,7 +27,7 @@ specifiers:
   log4js: ^6.9.1
   npm-check-updates: ^16.14.6
   prettier: ^3.0.3
-  puppeteer: ^21.5.0
+  puppeteer: ^21.5.1
   rimraf: ^5.0.5
   tsup: ^7.2.0
   tsx: ^3.14.0
@@ -62,7 +62,7 @@ devDependencies:
   log4js: 6.9.1
   npm-check-updates: 16.14.6
   prettier: 3.0.3
-  puppeteer: 21.5.0_typescript@5.2.2
+  puppeteer: 21.5.1_typescript@5.2.2
   rimraf: 5.0.5
   tsup: 7.2.0_typescript@5.2.2
   tsx: 3.14.0
@@ -980,7 +980,7 @@ packages:
     resolution: {integrity: sha512-ja78vquZc8y+GM2al07GZqWDKQskQXygCDiu0e3uO0DMRKqE0MjrFBFmTulfPYzLB6WnL7Kl2tFPy0WXSpPomg==}
     deprecated: This is a stub types definition. puppeteer provides its own type definitions, so you do not need this installed.
     dependencies:
-      puppeteer: 21.5.0_typescript@5.2.2
+      puppeteer: 21.5.1_typescript@5.2.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -4389,8 +4389,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer-core/21.5.0:
-    resolution: {integrity: sha512-qG0RJ6qKgFz09UUZxDB9IcyTJGypQXMuE8WmEoHk7kgjutmRiOVv5RgsyUkY67AxDdBWx21bn1PHHRJnO/6b4A==}
+  /puppeteer-core/21.5.1:
+    resolution: {integrity: sha512-u6c3SZKAOaOQogaTkQvllxT/o2PP16wkbrUWINtMhfvrB4ko+xwqC1pb+vyCPMmNUh3N/CX5YGqb3DWx2fUPSQ==}
     engines: {node: '>=16.3.0'}
     dependencies:
       '@puppeteer/browsers': 1.8.0
@@ -4422,14 +4422,14 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer/21.5.0_typescript@5.2.2:
-    resolution: {integrity: sha512-prvy9rdauyIaaEgefQRcw9zhQnYQbl8O1Gj5VJazKJ7kwNx703+Paw/1bwA+b96jj/S+r55hrmF5SfiEG5PUcg==}
+  /puppeteer/21.5.1_typescript@5.2.2:
+    resolution: {integrity: sha512-NkI06BXckVZeZUkODK+BbgGelQSu7uYEp9PaJDozxpwNRFDYoVfHQvd2G4dERoLdP6+qx4EBPwEhk4dEkQc2Kg==}
     engines: {node: '>=16.3.0'}
     requiresBuild: true
     dependencies:
       '@puppeteer/browsers': 1.8.0
       cosmiconfig: 8.3.6_typescript@5.2.2
-      puppeteer-core: 21.5.0
+      puppeteer-core: 21.5.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
