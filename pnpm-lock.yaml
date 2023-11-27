@@ -7,7 +7,7 @@ specifiers:
   '@types/fs-extra': ^11.0.4
   '@types/inquirer': ^9.0.7
   '@types/lodash-es': ^4.17.11
-  '@types/node': ^20.9.2
+  '@types/node': ^20.10.0
   '@types/puppeteer': ^7.0.4
   arg: ^5.0.2
   chalk: ^5.3.0
@@ -45,7 +45,7 @@ devDependencies:
   '@types/fs-extra': 11.0.4
   '@types/inquirer': 9.0.7
   '@types/lodash-es': 4.17.11
-  '@types/node': 20.9.2
+  '@types/node': 20.10.0
   '@types/puppeteer': 7.0.4_typescript@5.2.2
   arg: 5.0.2
   chalk: 5.3.0
@@ -1029,7 +1029,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
     dev: true
 
   /@types/http-cache-semantics/4.0.1:
@@ -1050,7 +1050,7 @@ packages:
   /@types/jsonfile/6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
     dev: true
 
   /@types/lodash-es/4.17.11:
@@ -1069,8 +1069,8 @@ packages:
       '@types/unist': 2.0.7
     dev: true
 
-  /@types/node/20.9.2:
-    resolution: {integrity: sha512-WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==}
+  /@types/node/20.10.0:
+    resolution: {integrity: sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1098,7 +1098,7 @@ packages:
   /@types/through/0.0.30:
     resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
     dev: true
 
   /@types/unist/2.0.7:
@@ -1109,7 +1109,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.9.2
+      '@types/node': 20.10.0
     optional: true
 
   /@typescript-eslint/eslint-plugin/6.7.2_g7p4lq23iolonfl43tw7f6d544:
@@ -1565,13 +1565,13 @@ packages:
       run-applescript: 5.0.0
     dev: true
 
-  /bundle-require/4.0.1_esbuild@0.19.5:
+  /bundle-require/4.0.1_esbuild@0.19.6:
     resolution: {integrity: sha512-9NQkRHlNdNpDBGmLpngF3EFDcwodhMUuLz9PaWYciVcQF9SE4LFjM2DB/xV1Li5JiuDMv7ZUWuC3rGbqR0MAXQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.17'
     dependencies:
-      esbuild: 0.19.5
+      esbuild: 0.19.6
       load-tsconfig: 0.2.5
     dev: true
 
@@ -5292,11 +5292,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 4.0.1_esbuild@0.19.5
+      bundle-require: 4.0.1_esbuild@0.19.6
       cac: 6.7.14
       chokidar: 3.5.3
       debug: 4.3.4
-      esbuild: 0.19.5
+      esbuild: 0.19.6
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
