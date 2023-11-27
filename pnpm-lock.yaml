@@ -30,7 +30,7 @@ specifiers:
   puppeteer: ^21.5.2
   rimraf: ^5.0.5
   tsup: ^8.0.0
-  tsx: ^4.1.1
+  tsx: ^4.5.0
   typescript: ^5.2.2
 
 dependencies:
@@ -65,7 +65,7 @@ devDependencies:
   puppeteer: 21.5.2_typescript@5.2.2
   rimraf: 5.0.5
   tsup: 8.0.0_typescript@5.2.2
-  tsx: 4.1.1
+  tsx: 4.5.0
   typescript: 5.2.2
 
 packages:
@@ -1565,13 +1565,13 @@ packages:
       run-applescript: 5.0.0
     dev: true
 
-  /bundle-require/4.0.1_esbuild@0.19.5:
+  /bundle-require/4.0.1_esbuild@0.19.6:
     resolution: {integrity: sha512-9NQkRHlNdNpDBGmLpngF3EFDcwodhMUuLz9PaWYciVcQF9SE4LFjM2DB/xV1Li5JiuDMv7ZUWuC3rGbqR0MAXQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.17'
     dependencies:
-      esbuild: 0.19.5
+      esbuild: 0.19.6
       load-tsconfig: 0.2.5
     dev: true
 
@@ -5292,11 +5292,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 4.0.1_esbuild@0.19.5
+      bundle-require: 4.0.1_esbuild@0.19.6
       cac: 6.7.14
       chokidar: 3.5.3
       debug: 4.3.4
-      esbuild: 0.19.5
+      esbuild: 0.19.6
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
@@ -5322,14 +5322,13 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /tsx/4.1.1:
-    resolution: {integrity: sha512-zyPn5BFMB0TB5kMLbYPNx4x/oL/oSlaecdKCv6WeJ0TeSEfx8RTJWjuB5TZ2dSewktgfBsBO/HNA9mrMWqLXMA==}
+  /tsx/4.5.0:
+    resolution: {integrity: sha512-hgxdziy9KLaHh9KE+a6tIZFP6kb0MLq/1D0sJVifbGP4QVEYhy6+2FNn7MyCm1pMc63p9CW/L1OzdqTNPxs6rg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.18.20
       get-tsconfig: 4.7.2
-      source-map-support: 0.5.21
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
