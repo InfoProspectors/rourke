@@ -30,7 +30,7 @@ specifiers:
   puppeteer: ^21.5.2
   rimraf: ^5.0.5
   tsup: ^8.0.1
-  tsx: ^4.1.1
+  tsx: ^4.6.2
   typescript: ^5.2.2
 
 dependencies:
@@ -65,7 +65,7 @@ devDependencies:
   puppeteer: 21.5.2_typescript@5.2.2
   rimraf: 5.0.5
   tsup: 8.0.1_typescript@5.2.2
-  tsx: 4.1.1
+  tsx: 4.6.2
   typescript: 5.2.2
 
 packages:
@@ -5322,14 +5322,13 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /tsx/4.1.1:
-    resolution: {integrity: sha512-zyPn5BFMB0TB5kMLbYPNx4x/oL/oSlaecdKCv6WeJ0TeSEfx8RTJWjuB5TZ2dSewktgfBsBO/HNA9mrMWqLXMA==}
+  /tsx/4.6.2:
+    resolution: {integrity: sha512-QPpBdJo+ZDtqZgAnq86iY/PD2KYCUPSUGIunHdGwyII99GKH+f3z3FZ8XNFLSGQIA4I365ui8wnQpl8OKLqcsg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.18.20
       get-tsconfig: 4.7.2
-      source-map-support: 0.5.21
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
