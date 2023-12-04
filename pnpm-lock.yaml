@@ -18,7 +18,7 @@ specifiers:
   eslint-config-prettier: ^9.0.0
   eslint-plugin-prettier: ^5.0.1
   execa: ^8.0.1
-  fs-extra: ^11.1.1
+  fs-extra: ^11.2.0
   hpdf: ^1.0.3
   html-to-md: ^0.8.4
   husky: ^8.0.3
@@ -55,7 +55,7 @@ devDependencies:
   eslint-config-prettier: 9.0.0_eslint@8.54.0
   eslint-plugin-prettier: 5.0.1_oedvp5mvnqhy2rzk6rnpm5c4sq
   execa: 8.0.1
-  fs-extra: 11.1.1
+  fs-extra: 11.2.0
   husky: 8.0.3
   inquirer: 9.2.12
   lint-staged: 15.1.0
@@ -2800,8 +2800,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /fs-extra/11.1.1:
-    resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
+  /fs-extra/11.2.0:
+    resolution: {integrity: sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==}
     engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.11
