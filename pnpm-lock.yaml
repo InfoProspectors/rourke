@@ -20,7 +20,7 @@ specifiers:
   execa: ^8.0.1
   fs-extra: ^11.2.0
   hpdf: ^1.0.3
-  html-to-md: ^0.8.4
+  html-to-md: ^0.8.5
   husky: ^8.0.3
   inquirer: ^9.2.12
   lint-staged: ^15.2.0
@@ -36,7 +36,7 @@ specifiers:
 dependencies:
   dotenv: 16.3.1
   hpdf: 1.0.3_typescript@5.3.3
-  html-to-md: 0.8.4
+  html-to-md: 0.8.5
 
 devDependencies:
   '@antfu/eslint-config-ts': 0.43.1_xdgzedli73k7lw4xlyzszm74om
@@ -2891,8 +2891,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /html-to-md/0.8.4:
-    resolution: {integrity: sha512-8CkHtDbEAczChyU3uznhfRWavATklvW+tMoJBdasr/HkGKLATAi16gA9oi8KM1OmLZ/W9/0UYk4JlLm7rdw7bg==}
+  /html-to-md/0.8.5:
+    resolution: {integrity: sha512-2AtBBJRrZ8WvhB1eDgTjW2TwVy1lat9FJW+XvVX836gsKi6qlhwaVG2jQZjbJAFr81/UW+6ABJSz/QOpeqgmuQ==}
     dev: false
 
   /htmlparser2/8.0.2:
