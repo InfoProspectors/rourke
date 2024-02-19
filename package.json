@@ -34,7 +34,7 @@
     "updates": "ncu -u && pnpm install --no-frozen-lockfile"
   },
   "dependencies": {
-    "dotenv": "^16.4.2",
+    "dotenv": "^16.4.4",
     "hpdf": "^1.0.3",
     "html-to-md": "^0.8.5"
   },
